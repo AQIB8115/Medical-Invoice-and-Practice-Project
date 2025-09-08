@@ -3,11 +3,11 @@ import './App.css';
 // import Test from './components/Test';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import TaskForm from "./components/TaskForm/TaskForm";
-import Counter from "./components/Counter/Counter";
-import InvoiceTable from "./components/InvoiceTable/InvoiceTable";
+import TaskForm from "../src/components/TaskForm/TaskForm";
+import Counter from "../src/components/Counter/Counter";
+import InvoiceTable from "../src/components/InvoiceTable/InvoiceTable";
 // import SimpleForm from "./components/SampleForm/Test";
-import AddCart  from "./components/AddCart/Cart";
+import AddCart  from "../src/components/AddCart/Cart";
 
 
 
