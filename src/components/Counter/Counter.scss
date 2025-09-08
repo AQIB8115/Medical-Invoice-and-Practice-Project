@@ -1,0 +1,63 @@
+.counter-container {
+  text-align: center;
+  padding: 2rem;
+  background-color: #8bbef1;
+  border-radius: 1rem;
+  width: 400px;
+  margin: 3rem auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+  h2 {
+    color: #030405;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: #111316;
+
+    span {
+      font-weight: bold;
+      font-size: larger;
+      color: #da0909;
+    }
+  }
+
+  .btn-group {
+    margin-top: 1rem;
+
+    button {
+      margin: 0 0.5rem;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 0.5rem;
+      background-color: #023812;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.2s;
+
+      &:hover {
+        background-color: #059e33;
+      }
+
+      &:nth-child(2) {
+        background-color: #f70909;
+
+        &:hover {
+          background-color: #690101;
+        }
+      }
+
+      &:last-child {
+        background-color: #f73131;
+
+        &:hover {
+          background-color: #5c0000;
+        }
+      }
+    }
+  }
+}

@@ -28,6 +28,34 @@
   color: #61dafb;
 }
 
+.navbar {
+  display: flex;
+  justify-content: center;   /* Center horizontally */
+  align-items: center;
+  gap: 20px;                 /* Space between links */
+  padding: 15px 20px;
+  background: linear-gradient(135deg, #4f46e5, #9333ea); /* Nice gradient */
+  border-radius: 12px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;           /* Makes it responsive */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
